@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bailare</title>
+    <link rel="stylesheet" href="stylecontato.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap"
+            rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a class="logo" href="#">Bailare</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="professores.html">Professores</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#">Login</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="home.html">Home</a>
+            <a href="professores.html">Professores</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="mobile.js"></script>
+
+    <section>
+
+        <div class="contato"> <center>Tire sua dúvida</center> </div>
+    </section>
+    
+
+    <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" placeholder="Nome">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Sobrenome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Endereço</label>
+
+            </div>
+            <div class="col-75">
+                <input type="text" id="endereco" name="endereco" placeholder="Endereço">
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Mensagem</label>
+            </div>
+            <div class="col-75">
+              <textarea id="mesagem" name="mensagem" placeholder="Escreva sua dúvida" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+</body>
+</html>
